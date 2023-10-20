@@ -1,0 +1,41 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP/1.1
+HTTP/1.1 is the first widespread version of HTTP that was introduced in 1997.
+It was designed for the web of its time, which primarily consisted of simple text-based web pages.
+HTTP/2
+HTTP/2, the successor to HTTP/1.1, was standardized in 2015. 
+It was developed to address the shortcomings of HTTP/1.1 and to accommodate the increasingly complex web applications, multimedia content, and mobile devices.
+
+Faster Page Load Times:
+ Multiplexing, header compression, and server push significantly reduce the time it takes for a web page to load.
+
+Improved User Experience: 
+Faster load times lead to happier users and higher user engagement.
+ Slow-loading websites can result in high bounce rates and dissatisfied visitors.
+
+Efficiency: 
+HTTP/2 is more efficient in terms of network utilization, as it reduces the amount of data transferred.
+
+Better Mobile Performance:
+ With the increase in mobile device usage, HTTP/2's performance enhancements are particularly valuable for mobile users who may have limited bandwidth and processing power.
+
+Enhanced Security: 
+While not directly related to performance, HTTP/2 encourages the use of secure connections through HTTPS, which is vital for data privacy and security.
+
+
+2)Write a blog about objects and its internal representation in Javascript
+
+Objects are important data types in javascript. Objects are different than primitive datatypes (i.e. number, string, boolean, etc.). Primitive data types contain one value but Objects can hold many values in form of Key: value pair. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+
+var mycar= new Object();
+
+myCar.make = 'Suzuki';
+
+myCar.model = 'Altros';
+
+myCar.year = 1978;
+
+myCar.wheels = 2;
